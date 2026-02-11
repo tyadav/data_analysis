@@ -126,7 +126,6 @@ for col in numeric_cols[:6]:  # Limit to first 6 columns
 
 print("✓ Distribution plots saved")
 
-
 # ============================================================================
 # 3.1 Target Variable & Categorical Features Analysis
 # ============================================================================
@@ -185,7 +184,6 @@ if categorical_cols:
     
     print(f"✓ Categorical features analysis saved")
 
-
 # ============================================================================
 # 4. Data Preprocessing and Cleaning
 # ============================================================================
@@ -227,7 +225,6 @@ for col in numeric_cols:
         print(f"   - Found {len(outliers)} outliers in {col}")
 
 print(f"\n✓ Preprocessing complete. Final shape: {df_processed.shape}")
-
 
 # ============================================================================
 # 5. Feature Engineering
@@ -817,3 +814,4 @@ for i, file in enumerate(saved_files, 1):
 
 print(f"\n✓ All results saved to folder: {output_folder}/")
 print("✓ Analysis complete!")
+
